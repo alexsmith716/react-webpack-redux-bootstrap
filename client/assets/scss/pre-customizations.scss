@@ -1,0 +1,11 @@
+
+$brand-primary: #000000;
+
+$font-family-sans-serif: 'OpenSans-Light', Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$fonts-url-path: '../fonts';
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('#{$fonts-url-path}/OpenSans-Light.ttf') format('truetype');
+}
