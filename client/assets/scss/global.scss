@@ -1,0 +1,38 @@
+
+// Bootstrap 4 configuration:
+// ----------------------------------------------------------------------
+$fa-font-path: "~font-awesome/fonts/";
+@import "./pre-customizations.scss";
+@import "~bootstrap/scss/_variables.scss";
+@import "./customizations-bs4.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~font-awesome/scss/font-awesome.scss";
+@import "./index.scss";
+
+
+
+// Bootstrap 4 configuration:
+// Glyphicons icon font support has been dropped
+// https://v4-alpha.getbootstrap.com/migration/
+// ----------------------------------------------------------------------
+// $fa-font-path: "~font-awesome/fonts/";
+// @import "./pre-customizations.scss";
+// @import "~bootstrap/scss/_variables.scss";
+// @import "./customizations-bs4.scss";
+// @import "~bootstrap/scss/bootstrap.scss";
+// @import "~font-awesome/scss/font-awesome.scss";
+
+
+// Bootstrap 3 font-awesome configuration:
+// ----------------------------------------------------------------------
+// $fa-font-path: "~font-awesome/fonts/";
+// @import "./customizations-bs3.scss";
+// @import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// @import "~font-awesome/scss/font-awesome.scss";
+
+
+// Bootstrap 3 glyphicon configuration:
+// ----------------------------------------------------------------------
+// $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+// @import "./customizations-bs3.scss";
+// @import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
